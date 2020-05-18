@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	    // https://developer.mozilla.org/fr/docs/Web/API/Fetch_API/Using_Fetch
 	    if(self.fetch) {
 	        // exécuter ma requête fetch ici
-	        var requete = ('./wp-content/plugins/widget_liens/liens.json');
+	        var requete = ('./wp-content/plugins/widget_liens-master/liens.json');
 	        // https://developer.mozilla.org/fr/docs/Learn/JavaScript/Objects/JSON
 	        fetch(requete).then(function(response) {
 				//console.log(response);
